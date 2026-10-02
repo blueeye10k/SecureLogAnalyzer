@@ -1,0 +1,19 @@
+Oct  2 09:14:02 sec-host sshd[1842]: Accepted publickey for alice from 192.0.2.44 port 52814 ssh2
+Oct  2 09:15:19 sec-host sshd[1849]: Accepted password for deploy from 198.51.100.12 port 41022 ssh2
+Oct  2 09:42:11 sec-host sshd[2091]: Failed password for root from 203.0.113.77 port 39110 ssh2
+Oct  2 09:42:14 sec-host sshd[2093]: Failed password for root from 203.0.113.77 port 39111 ssh2
+Oct  2 09:42:17 sec-host sshd[2095]: Failed password for invalid user admin from 203.0.113.77 port 39112 ssh2
+Oct  2 09:42:21 sec-host sshd[2097]: Failed password for root from 203.0.113.77 port 39113 ssh2
+Oct  2 09:42:26 sec-host sshd[2101]: Failed password for root from 203.0.113.77 port 39114 ssh2
+Oct  2 09:42:31 sec-host sshd[2104]: Failed password for root from 203.0.113.77 port 39115 ssh2
+Oct  2 09:42:36 sec-host sshd[2108]: Failed password for root from 203.0.113.77 port 39116 ssh2
+Oct  2 09:42:43 sec-host sshd[2114]: Failed password for root from 203.0.113.77 port 39117 ssh2
+Oct  2 10:01:08 sec-host sshd[2390]: Failed password for root from 198.51.100.24 port 43201 ssh2
+Oct  2 10:01:15 sec-host sshd[2392]: Failed password for root from 198.51.100.24 port 43202 ssh2
+Oct  2 10:01:22 sec-host sshd[2394]: Failed password for root from 198.51.100.24 port 43203 ssh2
+203.0.113.66 - - [02/Oct/2026:10:10:00 +0000] "GET /../../etc/passwd HTTP/1.1" 400 321 "-" "curl/8.5.0"
+203.0.113.66 - - [02/Oct/2026:10:10:01 +0000] "GET /static/../../etc/shadow HTTP/1.1" 404 298 "-" "Mozilla/5.0"
+203.0.113.66 - - [02/Oct/2026:10:10:04 +0000] "GET /%2e%2e/%2e%2e/etc/passwd HTTP/1.1" 400 321 "-" "sqlmap/1.8"
+203.0.113.66 - - [02/Oct/2026:10:10:06 +0000] "GET /assets/app.css HTTP/1.1" 200 18420 "-" "Mozilla/5.0"
+198.51.100.24 - - [02/Oct/2026:10:12:44 +0000] "GET /images/logo.svg HTTP/1.1" 200 6042 "-" "Mozilla/5.0"
+192.0.2.44 - - [02/Oct/2026:10:15:02 +0000] "GET /dashboard HTTP/1.1" 200 8120 "-" "Mozilla/5.0"
